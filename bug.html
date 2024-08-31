@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .BugHeader {
+            width: 500px;
+            border: 1px solid black;
+        }
+
+        .BugList {
+            width: 500px;
+            border: 1px solid black;
+        }
+
+        .BugFooter {
+            width: 500px;
+            border: 1px solid black;
+        } */
+
+        /* 为表格容器添加样式 */
+        .BugList {
+            margin: 20px;
+        }
+
+        /* 为每个 BugItem 添加边框和内边距 */
+        .BugItem {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /* 确保表格边框合并 */
+        }
+
+        /* 表头样式 */
+        thead {
+            background-color: #f4f4f4;
+            /* 表头背景色 */
+        }
+
+        thead th {
+            border: 1px solid #ddd;
+            /* 表头单元格边框 */
+            /* padding: 8px; */
+            /* 内边距 */
+            text-align: left;
+            /* 左对齐 */
+        }
+
+        /* 表格主体样式 */
+        tbody td {
+            border: 1px solid #ddd;
+            /* 数据单元格边框 */
+            padding: 8px;
+            /* 内边距 */
+            text-align: left;
+            /* 左对齐 */
+        }
+
+        /* 表格行悬停效果 */
+        tbody tr:hover {
+            background-color: #f9f9f9;
+            /* 悬停时的背景色 */
+        }
+
+        /* 表单元素的样式 */
+        input[type="checkbox"] {
+            margin-right: 5px;
+            /* 复选框右边距 */
+        }
+
+        /* button {
+            border: none;
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        } */
+
+        /* button:hover {
+            background-color: #0056b3;
+            /* 悬停时的背景色
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="BugHeader">
+        <textarea name="" id=""></textarea><br>
+        <button>SAVE</button>
+    </div>
+    <div class="BugList">
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" name="" id=""> SELECT ALL</th>
+                        <th>DESCRIPTION</th>
+                        <th>ACTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <div class="BugItem">
+                        <tr>
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>XXXXXXXXXX</td>
+                            <td><button>DELETE</button></td>
+                        </tr>
+                    </div>
+                    <!-- <div class="BugItem">
+                        <tr>
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>XXXXXXXXXX</td>
+                            <td><button>DELETE</button></td>
+                        </tr>
+                    </div>
+                    <div class="BugItem">
+                        <tr>
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>XXXXXXXXXX</td>
+                            <td><button>DELETE</button></td>
+                        </tr>
+                    </div> -->
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div class="BugFooter">
+        <button>CLEAR FINISHED</button>
+    </div>
+</body>
+
+</html>
